@@ -1,0 +1,52 @@
+@import '../shared/variables';
+
+.dashboard{
+    background-color: $purple;
+    height: 100%;
+    width: 100%;
+    &-row{
+        width: 60%;
+        display: flex;
+        margin: auto;
+        &-column{
+            margin-top: 13%;
+            &:last-child{
+                margin-left: 10%;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    &-buttons{
+        margin-top: 10%;
+        &-study,
+        &-teach{
+            cursor: pointer;
+            width: 282px;
+            height: 104px;
+            border-radius: 8px;
+            border: none;
+            text-align: center;
+            &-icon,
+            &-text{
+                vertical-align: middle;
+                display: inline-block;
+                color: $white;
+            }
+            &-text{
+                margin-left: 10px;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 26px;
+            }
+        }
+        &-study{
+            margin-right: 30px;
+            background-color: $lightpurple;
+        }
+        &-teach{
+            background-color: $lightgreen;
+        }
+    }
+}
