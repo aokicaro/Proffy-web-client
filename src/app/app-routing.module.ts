@@ -2,16 +2,25 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
   {
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full'
+  },{
+    path: 'form',
+    redirectTo: 'form',
+    pathMatch: 'full'
   },
   {
     path: 'dashboard',
     component: DashboardComponent
+  },
+  {
+    path:'form',
+    component: FormComponent
   }
 ];
 
