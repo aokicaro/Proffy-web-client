@@ -43,11 +43,26 @@
         width: 50%;
         min-height: 500px;
         background-color: $white;
-        border: 1px solid #E6E6F0;
+        border: 1px solid $bordercolor;
         box-sizing: border-box;
         border-radius: 8px;
         position: absolute;
         top: 275px;
         left: 25%;
+        h2{
+            color: $darkpurple;
+        }
+
+        &-content{
+            form{
+                .form-content{
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                .form-footer{
+                    background-color: #FAFAFC;
+                }
+            }
+        }
     }
 }
