@@ -6,3 +6,15 @@ $white: #FFFFFF;
 $lightgreen: #04D361;
 $backgroundcolor: #E5E5E5;
 $bordercolor:  #E6E6F0;
+$inputcolor: #FAFAFC;
+
+
+// Global input configurations
+input{
+    width: 100%;
+    height: 65px;
+    background: $inputcolor;
+    border: 1px solid $bordercolor;
+    box-sizing: border-box;
+    border-radius: 8px;
+}

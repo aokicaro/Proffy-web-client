@@ -36,14 +36,14 @@
                         <label for="whatsapp">
                             Whatsapp
                         </label>
-                        <input id="whatsapp" type="text" name="whatsapp">
+                        <input id="whatsapp" type="text" formControlName="whatsapp">
                     </div>
     
                     <div>
                         <label for="biography">
                             Biografia
                         </label>
-                        <input id="biography" type="text" name="biography">
+                        <input id="biography" type="text" formControlName="biography">
                     </div>
                   <!-- ------------------------------- -->
     
@@ -56,13 +56,13 @@
                         <label for="discipline">
                             Matéria
                         </label>
-                        <input type="discipline" name="discipline" id="discipline">
+                        <input type="discipline" formControlName="discipline" id="discipline">
                     </div>
                     <div>
                         <label for="costTeach">
                             Custo da sua hora por aula
                         </label>
-                        <input type="text" name="costTeach" id="costTeach">
+                        <input type="text" formControlName="costTeach" id="costTeach">
                     </div>
                     <!-- ---------------------- -->
     
@@ -77,7 +77,7 @@
                         <label for="dayweek">
                            Dia da semana 
                         </label>
-                        <select name="dayweek" id="dayweek">
+                        <select formControlName="dayweek" id="dayweek">
                             <!-- <option *ngFor="let item of list"></option> -->
                         </select>
                     </div>
@@ -85,13 +85,13 @@
                         <label for="starthour">
                             Das
                         </label>
-                        <input type="text" name="starthour" id="starthour">
+                        <input type="text" formControlName="starthour" id="starthour">
                     </div>
                     <div>
                         <label for="endhour">
                             Até
                         </label>
-                        <input type="text" name="endhour" id="endhour">
+                        <input type="text" formControlName="endhour" id="endhour">
                     </div>
                 </div>
 
